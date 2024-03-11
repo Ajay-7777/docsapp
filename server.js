@@ -38,7 +38,7 @@ const { signup, login, protect, isOwnerOrCollaborator, isLoggedIn, logout, accep
 // mongoose.connect('mongodb://localhost/test-db', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
 //     .then(() => console.log('DB connection successful!'))
 
-mongoose.connect('mongodb+srv://akkirahi810:abcd1234@cluster0.tkbwrnl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
+mongoose.connect('mongodb+srv://akkirahi810:abcd1234@cluster0.tkbwrnl.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
     .then(() => console.log('DB connection successful!'))
 
 
